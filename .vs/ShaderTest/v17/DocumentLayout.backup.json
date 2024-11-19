@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\SinUnlitShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\UnlitShaderTest.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\UnlitShaderTest.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\MyTexture.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\MyTexture.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\MyShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\MyShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\MyTexture.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\MyTexture.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\UnlitShaderTest.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\UnlitShaderTest.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Assets\\Shader\\WaterUnlitShader.shader",
               "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\WaterUnlitShader.shader",
               "RelativeToolTip": "Assets\\Shader\\WaterUnlitShader.shader",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
               "WhenOpened": "2024-11-18T02:16:16.238Z",
               "EditorCaption": ""
@@ -53,20 +53,20 @@
               "RelativeDocumentMoniker": "Assets\\Shader\\SinUnlitShader.shader",
               "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\SinUnlitShader.shader",
               "RelativeToolTip": "Assets\\Shader\\SinUnlitShader.shader",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
               "WhenOpened": "2024-10-23T07:48:48.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MyTexture.shader",
               "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\MyTexture.shader",
               "RelativeDocumentMoniker": "Assets\\Shader\\MyTexture.shader",
               "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\MyTexture.shader",
               "RelativeToolTip": "Assets\\Shader\\MyTexture.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
               "WhenOpened": "2024-10-22T07:45:48.649Z",
               "EditorCaption": ""
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UnlitShaderTest.shader",
               "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\UnlitShaderTest.shader",
               "RelativeDocumentMoniker": "Assets\\Shader\\UnlitShaderTest.shader",
@@ -94,8 +94,7 @@
               "RelativeToolTip": "Assets\\Shader\\UnlitShaderTest.shader",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-09-27T08:38:56.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T08:38:56.546Z"
             }
           ]
         }
