@@ -1,4 +1,4 @@
-Shader "Unlit/DiffusePixelShader"
+Shader "Custom/DiffusePixelShader"
 {
     Properties
     {
@@ -32,6 +32,7 @@ Shader "Unlit/DiffusePixelShader"
             {
                 float2 worldNormal : TEXCOORD0;
                 float4 vertex : SV_POSITION;
+                float3 normal : NORMAL;
             };
 
             sampler2D _MainTex;
@@ -41,10 +42,9 @@ Shader "Unlit/DiffusePixelShader"
 
             v2f vert (appdata v)
             {
-                v2f o;
+                v2f o = (v2f)0;
                 o.vertex = UnityObjectToClipPos(v.vertex);
-                o.worldNormal = mul(v.normal,(float3x3)unity_WorldToObject);
-
+                o.normal = v.normal;
                 return o;
             }
 
@@ -53,7 +53,7 @@ Shader "Unlit/DiffusePixelShader"
                 //环境光
                 fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz;
                 //获取世界坐标下法线
-                fixed3 worldNormal = normalize(i.worldNormal);
+                fixed3 worldNormal = normalize(mul(i.normal,(float3x3)unity_WorldToObject));
                 //获取光源方向
                 fixed3 worldLightDir = normalize(_WorldSpaceLightPos0.xyz);
                 //漫反射光照模型计算
