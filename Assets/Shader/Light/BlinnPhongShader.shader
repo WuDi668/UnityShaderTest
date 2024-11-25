@@ -49,7 +49,8 @@ Shader "Custom/BlinnPhongShader"
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
 
-                o.worldNormal = mul(v.normal,(float3x3)unity_WorldToObject);
+                //o.worldNormal = mul(v.normal,(float3x3)unity_WorldToObject);
+                o.worldNormal = UnityObjectToWorldNormal(v.normal);
                 o.worldPos = mul(unity_ObjectToWorld,v.vertex).xyz;
 
                 return o;
@@ -62,7 +63,9 @@ Shader "Custom/BlinnPhongShader"
                //获取世界坐标下法线
                fixed3 worldNormal = normalize(i.worldNormal);
                //获取光源方向
-               fixed3 worldLightDir = normalize(_WorldSpaceLightPos0.xyz);
+               //fixed3 worldLightDir = normalize(_WorldSpaceLightPos0.xyz);
+               //使用Unity内置函数获取
+               fixed3 worldLightDir = normalize(UnityWorldSpaceLightDir(i.worldPos));
 
                //先计算漫反射
                fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * saturate(dot(worldNormal,worldLightDir));
@@ -71,8 +74,12 @@ Shader "Custom/BlinnPhongShader"
                //计算反射方向，reflect为CG自带函数，顾名思义计算两向量的反射方向
                //这里计算的是入射光线关于表面法线的反射方向
                fixed3 reflectDir = normalize(reflect(-worldLightDir,worldNormal));
+
                //模型空间位置转换到世界空间 与摄像机位置相减得到视角方向
-               fixed3 viewDir = normalize(_WorldSpaceCameraPos.xyz - i.worldPos.xyz);
+               //fixed3 viewDir = normalize(_WorldSpaceCameraPos.xyz - i.worldPos.xyz);
+               //使用Unity内置函数获取
+               fixed3 viewDir = normalize(UnityWorldSpaceViewDir(i.worldPos));
+
                //BlinnPhone模型，计算中间向量
                fixed3 halfDir = normalize(worldLightDir + viewDir);
                //高光反射光照模型计算
