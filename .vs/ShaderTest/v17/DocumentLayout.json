@@ -3,40 +3,28 @@
   "WorkspaceRootPath": "E:\\UnityTestProject\\ShaderTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\SpecularVertexShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\SpecularVertexShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\BlinnPhongShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\Light\\BlinnPhongShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\HalfLambertShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\HalfLambertShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\HalfLambertShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\Light\\HalfLambertShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\DiffusePixelShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\DiffusePixelShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\SpecularPixelShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\Light\\SpecularPixelShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\DiffuseShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\DiffuseShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\DiffusePixelShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\Light\\DiffusePixelShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\WaterUnlitShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\WaterUnlitShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\DiffuseShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\Light\\DiffuseShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\SinUnlitShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\SinUnlitShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\MyTexture.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\MyTexture.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\MyShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\MyShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\UnlitShaderTest.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\UnlitShaderTest.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\SpecularVertexShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shader\\Light\\SpecularVertexShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,112 +39,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SpecularVertexShader.shader",
-              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\SpecularVertexShader.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\SpecularVertexShader.shader",
-              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\SpecularVertexShader.shader",
-              "RelativeToolTip": "Assets\\Shader\\SpecularVertexShader.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Title": "BlinnPhongShader.shader",
+              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\BlinnPhongShader.shader",
+              "RelativeDocumentMoniker": "Assets\\Shader\\Light\\BlinnPhongShader.shader",
+              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\BlinnPhongShader.shader",
+              "RelativeToolTip": "Assets\\Shader\\Light\\BlinnPhongShader.shader",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-11-25T06:27:03.234Z",
+              "WhenOpened": "2024-11-25T08:47:51.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HalfLambertShader.shader",
-              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\HalfLambertShader.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\HalfLambertShader.shader",
-              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\HalfLambertShader.shader",
-              "RelativeToolTip": "Assets\\Shader\\HalfLambertShader.shader",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwEEAAAANAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\HalfLambertShader.shader",
+              "RelativeDocumentMoniker": "Assets\\Shader\\Light\\HalfLambertShader.shader",
+              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\HalfLambertShader.shader",
+              "RelativeToolTip": "Assets\\Shader\\Light\\HalfLambertShader.shader",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-11-20T10:45:10.336Z",
+              "WhenOpened": "2024-11-25T06:29:41.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DiffusePixelShader.shader",
-              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\DiffusePixelShader.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\DiffusePixelShader.shader",
-              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\DiffusePixelShader.shader",
-              "RelativeToolTip": "Assets\\Shader\\DiffusePixelShader.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAFAAAAAAAAAA==",
+              "Title": "SpecularPixelShader.shader",
+              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\SpecularPixelShader.shader",
+              "RelativeDocumentMoniker": "Assets\\Shader\\Light\\SpecularPixelShader.shader",
+              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\SpecularPixelShader.shader",
+              "RelativeToolTip": "Assets\\Shader\\Light\\SpecularPixelShader.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-11-19T09:58:28.82Z"
+              "WhenOpened": "2024-11-25T07:30:48.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DiffuseShader.shader",
-              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\DiffuseShader.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\DiffuseShader.shader",
-              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\DiffuseShader.shader",
-              "RelativeToolTip": "Assets\\Shader\\DiffuseShader.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Title": "DiffusePixelShader.shader",
+              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\DiffusePixelShader.shader",
+              "RelativeDocumentMoniker": "Assets\\Shader\\Light\\DiffusePixelShader.shader",
+              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\DiffusePixelShader.shader",
+              "RelativeToolTip": "Assets\\Shader\\Light\\DiffusePixelShader.shader",
+              "ViewState": "AgIAACoAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-11-20T06:18:12.514Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WaterUnlitShader.shader",
-              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\WaterUnlitShader.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\WaterUnlitShader.shader",
-              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\WaterUnlitShader.shader",
-              "RelativeToolTip": "Assets\\Shader\\WaterUnlitShader.shader",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-11-18T02:16:16.238Z"
+              "WhenOpened": "2024-11-25T08:36:06.541Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SinUnlitShader.shader",
-              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\SinUnlitShader.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\SinUnlitShader.shader",
-              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\SinUnlitShader.shader",
-              "RelativeToolTip": "Assets\\Shader\\SinUnlitShader.shader",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAlAAAAAAAAAA==",
+              "Title": "SpecularVertexShader.shader",
+              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\SpecularVertexShader.shader",
+              "RelativeDocumentMoniker": "Assets\\Shader\\Light\\SpecularVertexShader.shader",
+              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\SpecularVertexShader.shader",
+              "RelativeToolTip": "Assets\\Shader\\Light\\SpecularVertexShader.shader",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-10-23T07:48:48.516Z"
+              "WhenOpened": "2024-11-25T06:28:41.681Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MyTexture.shader",
-              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\MyTexture.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\MyTexture.shader",
-              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\MyTexture.shader",
-              "RelativeToolTip": "Assets\\Shader\\MyTexture.shader",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DiffuseShader.shader",
+              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\DiffuseShader.shader",
+              "RelativeDocumentMoniker": "Assets\\Shader\\Light\\DiffuseShader.shader",
+              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\Light\\DiffuseShader.shader",
+              "RelativeToolTip": "Assets\\Shader\\Light\\DiffuseShader.shader",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-10-22T07:45:48.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MyShader.shader",
-              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\MyShader.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\MyShader.shader",
-              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\MyShader.shader",
-              "RelativeToolTip": "Assets\\Shader\\MyShader.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-10-22T02:09:52.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UnlitShaderTest.shader",
-              "DocumentMoniker": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\UnlitShaderTest.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\UnlitShaderTest.shader",
-              "ToolTip": "E:\\UnityTestProject\\ShaderTest\\Assets\\Shader\\UnlitShaderTest.shader",
-              "RelativeToolTip": "Assets\\Shader\\UnlitShaderTest.shader",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-09-27T08:38:56.546Z"
+              "WhenOpened": "2024-11-25T06:48:40.943Z",
+              "EditorCaption": ""
             }
           ]
         }
