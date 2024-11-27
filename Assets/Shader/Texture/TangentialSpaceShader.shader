@@ -3,7 +3,7 @@ Shader "Custom/TangentialSpaceShader"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-         _Color("Color",Color) = (1,1,1,1)
+        _Color("Color",Color) = (1,1,1,1)
         _Specular("Specular",Color) = (1,1,1,1) //高光反射颜色
         _Gloss("Gloss",Range(8.0,256)) = 20 //光泽度 范围8~256 默认值20 控制高光区域大小
         _BumpMap("Bump Map",2D) = "bump"{} //凹凸贴图
@@ -56,6 +56,7 @@ Shader "Custom/TangentialSpaceShader"
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
+                //保存两个纹理坐标
                 o.uv.xy = v.uv.xy * _MainTex_ST.xy + _MainTex_ST.zw;
                 o.uv.zw = v.uv.xy * _BumpMap_ST.xy + _BumpMap_ST.zw;
 
@@ -80,7 +81,10 @@ Shader "Custom/TangentialSpaceShader"
                 fixed4 packedNormal = tex2D(_BumpMap,i.uv.zw);
                 fixed3 tangentNormal;
 
-                //如果Unity没有设置该纹理为Normal map，就需要手动处理
+                //如果Unity没有设置该纹理为Normal map，就需要手动处理：
+                //tangentNormal.xy = (packedNormal.xy *2-1) * _BumpScale
+                //tangentNormal.z = sqrt(1.0 - saturate(dot(tangentNormal.xy,tangentNormal.xy)));
+                //我们已经设置好了法线贴图，所以可以直接用内置函数反映射
                 tangentNormal = UnpackNormal(packedNormal);
                 tangentNormal.xy *= _BumpScale;
                 tangentNormal.z = sqrt(1.0 - saturate(dot(tangentNormal.xy,tangentNormal.xy)));
