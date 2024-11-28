@@ -1,4 +1,4 @@
-Shader "Custom/TangentialSpaceShader"
+Shader "Custom/Texture/TangentialSpaceShader"
 {
     Properties
     {

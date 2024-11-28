@@ -1,4 +1,4 @@
-Shader "Custom/GradientTextureShader"
+Shader "Custom/Texture/GradientTextureShader"
 {
     Properties
     {

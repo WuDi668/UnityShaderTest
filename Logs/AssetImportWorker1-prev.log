@@ -15,7 +15,7 @@ E:/UnityTestProject/ShaderTest
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52776
+53585
 Successfully changed project path to: E:/UnityTestProject/ShaderTest
 E:/UnityTestProject/ShaderTest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ E:/UnityTestProject/ShaderTest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19820]  Target information:
+Player connection [22204]  Target information:
 
-Player connection [19820]  * "[IP] 192.168.10.32 [Port] 0 [Flags] 2 [Guid] 2117029408 [EditorId] 2117029408 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q5QFH5M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22204]  * "[IP] 192.168.10.32 [Port] 0 [Flags] 2 [Guid] 399103649 [EditorId] 399103649 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q5QFH5M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19820] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19820] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22204] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22204] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 12.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1c1 (d3f79ae33604)
 [Subsystems] Discovering subsystems at path E:/UnityEditorOther/2022.3.42f1c1/Editor/Data/Resources/UnitySubsystems
@@ -72,47 +72,47 @@ Initialize mono
 Mono path[0] = 'E:/UnityEditorOther/2022.3.42f1c1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityEditorOther/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/UnityEditorOther/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityEditorOther/2022.3.42f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/UnityEditorOther/2022.3.42f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007562 seconds.
-- Loaded All Assemblies, in  0.466 seconds
+Registered in 0.006743 seconds.
+- Loaded All Assemblies, in  0.401 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 990 ms
+Android Extension - Scanning For ADB Devices 959 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.350 seconds
-Domain Reload Profiling: 1813ms
-	BeginReloadAssembly (120ms)
+- Finished resetting the current domain, in  1.319 seconds
+Domain Reload Profiling: 1717ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (206ms)
-		LoadAssemblies (117ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (105ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (203ms)
-			TypeCache.Refresh (202ms)
-				TypeCache.ScanAssembly (181ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (162ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1350ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1319ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1297ms)
+		SetupLoadedEditorAssemblies (1269ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1115ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (1077ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,7 +121,7 @@ Domain Reload Profiling: 1813ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.643 seconds
+- Loaded All Assemblies, in  0.594 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -129,47 +129,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.646 seconds
-Domain Reload Profiling: 1286ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.536 seconds
+Domain Reload Profiling: 1127ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (392ms)
-		LoadAssemblies (266ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (251ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (191ms)
-				TypeCache.ScanAssembly (173ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (647ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (156ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (537ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (471ms)
+		SetupLoadedEditorAssemblies (398ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (336ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3577.
-Memory consumption went from 128.9 MB to 128.8 MB.
-Total: 2.649700 ms (FindLiveObjects: 0.224800 ms CreateObjectMapping: 0.185200 ms MarkObjects: 2.163700 ms  DeleteObjects: 0.075300 ms)
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (55.2 KB). Loaded Objects now: 3579.
+Memory consumption went from 129.7 MB to 129.7 MB.
+Total: 2.717100 ms (FindLiveObjects: 0.220800 ms CreateObjectMapping: 0.147600 ms MarkObjects: 2.271300 ms  DeleteObjects: 0.076700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,713 +185,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1853.229730 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Concrete/PTP-Concrete_02-128x128.png
-  artifactKey: Guid(865dc83fb4604bd4e8860c12b7c94c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Concrete/PTP-Concrete_02-128x128.png using Guid(865dc83fb4604bd4e8860c12b7c94c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e453d3038744ef900c3c25390ae17a9f') in 0.065134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.655848 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Elements/PTP-Elements_02-128x128.png
-  artifactKey: Guid(8768d7343d5752a45bb51e22096f1a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Elements/PTP-Elements_02-128x128.png using Guid(8768d7343d5752a45bb51e22096f1a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'dd83973a3070fdb1c5a105bd14c5b9ce') in 0.014274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Elements/PTP-Elements_07-128x128.png
-  artifactKey: Guid(72f2e3fc71dab924a8e046bf48fdf5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Elements/PTP-Elements_07-128x128.png using Guid(72f2e3fc71dab924a8e046bf48fdf5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f21af0cedc1b813994e5f28bf6bfca83') in 0.008684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Elements/PTP-Elements_12-128x128.png
-  artifactKey: Guid(0503f9621ff576946a75b4a9495415b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Elements/PTP-Elements_12-128x128.png using Guid(0503f9621ff576946a75b4a9495415b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '44b2a78bdedf11251c28274f63ba05c2') in 0.006642 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Elements/PTP-Elements_11-128x128.png
-  artifactKey: Guid(41b6e59bf714c2f4cb979286f9457ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Elements/PTP-Elements_11-128x128.png using Guid(41b6e59bf714c2f4cb979286f9457ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b64e334b5d7ebb9363db36e5a72a8aae') in 0.007099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Elements/PTP-Elements_10-128x128.png
-  artifactKey: Guid(3e14ce51ef3ecad4a88f19c2fb0b3da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Elements/PTP-Elements_10-128x128.png using Guid(3e14ce51ef3ecad4a88f19c2fb0b3da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '67badee520d7f0af7ef5143351b022ef') in 0.008155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.858325 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Foliage/PTP-Foliage_02-128x128.png
-  artifactKey: Guid(357dcec439fa2474794756fb815397e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Foliage/PTP-Foliage_02-128x128.png using Guid(357dcec439fa2474794756fb815397e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'be33e90ed294ca818bf3c1cb4679e31d') in 0.006855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Foliage/PTP-Foliage_08-128x128.png
-  artifactKey: Guid(aceee1d7fdb19f042ae2d7f1ce9ed762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Foliage/PTP-Foliage_08-128x128.png using Guid(aceee1d7fdb19f042ae2d7f1ce9ed762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2520c0866bb6f3275b69c5aad392d968') in 0.007431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Foliage/PTP-Foliage_03-128x128.png
-  artifactKey: Guid(4528cf244b7fe6f44af58a447c5a983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Foliage/PTP-Foliage_03-128x128.png using Guid(4528cf244b7fe6f44af58a447c5a983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a1ebc68acd618271e13d898e10b766c2') in 0.009099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Foliage/PTP-Foliage_05-128x128.png
-  artifactKey: Guid(59a36ab36ee0ad945b53f380c58e5509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Foliage/PTP-Foliage_05-128x128.png using Guid(59a36ab36ee0ad945b53f380c58e5509) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6b4ddcc247db09ace54c7977962af408') in 0.006299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Foliage/PTP-Foliage_06-128x128.png
-  artifactKey: Guid(5f0c1e2e0799cf449b87745b06fc2ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Foliage/PTP-Foliage_06-128x128.png using Guid(5f0c1e2e0799cf449b87745b06fc2ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '024308643a099a7a8ca4232a2545a33b') in 0.006872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.138555 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Ground/PTP-Ground_02-128x128.png
-  artifactKey: Guid(61ef5a6eb12176445adcf25636ee795b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Ground/PTP-Ground_02-128x128.png using Guid(61ef5a6eb12176445adcf25636ee795b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '23a61c1923dda6bb6ebfa30f0d381d1e') in 0.007292 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Ground/PTP-Ground_07-128x128.png
-  artifactKey: Guid(3e1ba871f01aa6a4eb445efb6ce49dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Ground/PTP-Ground_07-128x128.png using Guid(3e1ba871f01aa6a4eb445efb6ce49dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '49c41a9b4d830f68e4992d00aacb58b7') in 0.007381 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Ground/PTP-Ground_06-128x128.png
-  artifactKey: Guid(a59330ab8af8b0c4a97591341a4ab505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Ground/PTP-Ground_06-128x128.png using Guid(a59330ab8af8b0c4a97591341a4ab505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a8b354c0e5b856f9de742bd0c2eaa5d4') in 0.007972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Ground/PTP-Ground_05-128x128.png
-  artifactKey: Guid(c45a6671e843f6c47b8a9e5550044d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Ground/PTP-Ground_05-128x128.png using Guid(c45a6671e843f6c47b8a9e5550044d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '13ba9951a56ede16a63ce6a240773ea0') in 0.005914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Ground/PTP-Ground_09-128x128.png
-  artifactKey: Guid(957cdebb2a846dc4e8b0688676b50903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Ground/PTP-Ground_09-128x128.png using Guid(957cdebb2a846dc4e8b0688676b50903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '48199fc84e7497b308d72486e6235660') in 0.007364 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Ground/PTP-Ground_03-128x128.png
-  artifactKey: Guid(6dfc8ccc04289cd4984d84c1a54f9de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Ground/PTP-Ground_03-128x128.png using Guid(6dfc8ccc04289cd4984d84c1a54f9de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6ba9b42156ad1c7f64752b32e5c6c4b0') in 0.008466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.735483 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Metal/PTP-Metal_02-128x128.png
-  artifactKey: Guid(4287f5d4cf0c46e4f8deca228fb1475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Metal/PTP-Metal_02-128x128.png using Guid(4287f5d4cf0c46e4f8deca228fb1475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd183dacf90dc1c34004b3c84be4e4b4c') in 0.013478 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Metal/PTP-Metal_03-128x128.png
-  artifactKey: Guid(d2684c6da163a934abe52204f669baa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Metal/PTP-Metal_03-128x128.png using Guid(d2684c6da163a934abe52204f669baa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a0cb0b75c2bd82a4a5d57c879e7cb5b1') in 0.007486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Metal/PTP-Metal_08-128x128.png
-  artifactKey: Guid(9ee98df94e4e4f24d9e56bccee33d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Metal/PTP-Metal_08-128x128.png using Guid(9ee98df94e4e4f24d9e56bccee33d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7679c2833ff9a8502cb78e9c42878875') in 0.007609 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Metal/PTP-Metal_07-128x128.png
-  artifactKey: Guid(50b45339384a9f844b731e77816d25e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Metal/PTP-Metal_07-128x128.png using Guid(50b45339384a9f844b731e77816d25e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6b1fb23d352d4e321d6d45f9a16fb0d0') in 0.005979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.903110 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Pattern/PTP-Pattern_02-128x128.png
-  artifactKey: Guid(8c23026ef9de7b34ba1159f18cb21c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Pattern/PTP-Pattern_02-128x128.png using Guid(8c23026ef9de7b34ba1159f18cb21c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8ffe6fff23c1a05f156ff4f5e7a462d2') in 0.013058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Pattern/PTP-Pattern_04-128x128.png
-  artifactKey: Guid(812493d28178fce47b144e4e726a6ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Pattern/PTP-Pattern_04-128x128.png using Guid(812493d28178fce47b144e4e726a6ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '755fa96f269b7d37c0f713f076a0775d') in 0.006786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.604540 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Stone/PTP-Stone_02-128x128.png
-  artifactKey: Guid(77c021375d1ddca4186a5d357f538b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Stone/PTP-Stone_02-128x128.png using Guid(77c021375d1ddca4186a5d357f538b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f11e468cf2e1077713c2ed32738aabd8') in 0.007526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Stone/PTP-Stone_10-128x128.png
-  artifactKey: Guid(5d5274349dbe3f74da496edf6e111ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Stone/PTP-Stone_10-128x128.png using Guid(5d5274349dbe3f74da496edf6e111ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3f3cf92a1e42d6cc3fa6214253a1db48') in 0.007177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Stone/PTP-Stone_09-128x128.png
-  artifactKey: Guid(8eead104b60141d4e807fad6b63a7bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Stone/PTP-Stone_09-128x128.png using Guid(8eead104b60141d4e807fad6b63a7bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0dc5d9f20fef02434eee15f33100aec7') in 0.007418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Stone/PTP-Stone_05-128x128.png
-  artifactKey: Guid(9cf8cb71c90bb6a468e530fbe5ef980b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Stone/PTP-Stone_05-128x128.png using Guid(9cf8cb71c90bb6a468e530fbe5ef980b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b1479f22a6a6c3c8b75c352b2b33be74') in 0.007306 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Stone/PTP-Stone_06-128x128.png
-  artifactKey: Guid(d9541e27efc9fdb41aeb1d98aa812942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Stone/PTP-Stone_06-128x128.png using Guid(d9541e27efc9fdb41aeb1d98aa812942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '552bbcf4384b3184021e2549f5a526d2') in 0.009279 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 16.943946 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Floor/PTP-Floor_02-128x128.png
-  artifactKey: Guid(feccf4ee6334fa942be6d7295b25801e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Floor/PTP-Floor_02-128x128.png using Guid(feccf4ee6334fa942be6d7295b25801e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8006e1eacdbd9a615163b9814f755d50') in 0.007294 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Floor/PTP-Floor_06-128x128.png
-  artifactKey: Guid(0ea2bd9af27dca941b95cda3bba40382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Floor/PTP-Floor_06-128x128.png using Guid(0ea2bd9af27dca941b95cda3bba40382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '93beb1a6c7b9f23ff7e71377199c48ad') in 0.014349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Floor/PTP-Floor_07-128x128.png
-  artifactKey: Guid(153456424b5b77943bce9cdb732afefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Floor/PTP-Floor_07-128x128.png using Guid(153456424b5b77943bce9cdb732afefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1510784951c200e438c7894b95c0d8ec') in 0.008394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Floor/PTP-Floor_05-128x128.png
-  artifactKey: Guid(539e52789002c1a41b35da420f8602f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 3 - 128x128/128x128/Floor/PTP-Floor_05-128x128.png using Guid(539e52789002c1a41b35da420f8602f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4a64e6606c0e8e947839afef8b58b5ad') in 0.006739 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 66.938305 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Ground/Ground_02-128x128.png
-  artifactKey: Guid(8b25e0c59b330464f9fee5a42483b94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Ground/Ground_02-128x128.png using Guid(8b25e0c59b330464f9fee5a42483b94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '12b9f1c174267adf687aa5c40cc0a435') in 0.007528 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Ground/Ground_11-128x128.png
-  artifactKey: Guid(24a71f66ebb80a44585f8009abff30ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Ground/Ground_11-128x128.png using Guid(24a71f66ebb80a44585f8009abff30ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bd76d0a3b4242b6c29cc2a378b004859') in 0.015150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Ground/Ground_12-128x128.png
-  artifactKey: Guid(648e78d318b532a469f09a301badcaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Ground/Ground_12-128x128.png using Guid(648e78d318b532a469f09a301badcaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '74013630227ac2ea9a93eed1d5e780a5') in 0.009985 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Ground/Ground_05-128x128.png
-  artifactKey: Guid(368b829a8f19b8e4e8e1a67a7ea63138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Ground/Ground_05-128x128.png using Guid(368b829a8f19b8e4e8e1a67a7ea63138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a4dfce60f2c39b9804d810d9c2b93ead') in 0.011169 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Ground/Ground_07-128x128.png
-  artifactKey: Guid(b1042ac9e0317244d89bce370c9eef55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Ground/Ground_07-128x128.png using Guid(b1042ac9e0317244d89bce370c9eef55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '70a321cc55f3d382e59acb4b00e07fb9') in 0.007189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Ground/Ground_09-128x128.png
-  artifactKey: Guid(018d68bb9f4fe7543a12d090b846d984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Ground/Ground_09-128x128.png using Guid(018d68bb9f4fe7543a12d090b846d984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a7bbf971ec544f89165ecdc8812e6077') in 0.007976 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.582729 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Misc/Misc_02-128x128.png
-  artifactKey: Guid(a6b595532c13bb1408d604e774233970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Misc/Misc_02-128x128.png using Guid(a6b595532c13bb1408d604e774233970) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0220714e48645f50fc4a9859e348e46e') in 0.006375 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Misc/Misc_07-128x128.png
-  artifactKey: Guid(dc929058509e5064ea83af7c9e9a5d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Misc/Misc_07-128x128.png using Guid(dc929058509e5064ea83af7c9e9a5d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3bbb0953d87f47e22d85d05b0e081ddf') in 0.009983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Misc/Misc_03-128x128.png
-  artifactKey: Guid(c910402d59dc0e04e992d5ff42e5d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Misc/Misc_03-128x128.png using Guid(c910402d59dc0e04e992d5ff42e5d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '179598fde473c093a49183fba50074d4') in 0.010782 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Misc/Misc_06-128x128.png
-  artifactKey: Guid(68d176a8f63754248993549634bcc467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Misc/Misc_06-128x128.png using Guid(68d176a8f63754248993549634bcc467) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '32523d37ae68c5670a1a535163cc1db4') in 0.007709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Misc/Misc_09-128x128.png
-  artifactKey: Guid(3971c5a208539ca41b0a1824b4f3ba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Misc/Misc_09-128x128.png using Guid(3971c5a208539ca41b0a1824b4f3ba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '53e0318c9435ae284f23819084a12d85') in 0.009981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Misc/Misc_08-128x128.png
-  artifactKey: Guid(4e29c7bfe30828b4eb9439383f3f9170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Misc/Misc_08-128x128.png using Guid(4e29c7bfe30828b4eb9439383f3f9170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e723587cc817b618c705153de082fb86') in 0.007502 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.606067 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Pebbles/Pebbles_02-128x128.png
-  artifactKey: Guid(2877111906de982409287270eeb17e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Pebbles/Pebbles_02-128x128.png using Guid(2877111906de982409287270eeb17e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8df7481c2cfdb9a19d8049b502e3ca6a') in 0.006653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Pebbles/Pebbles_11-128x128.png
-  artifactKey: Guid(8e1faf56853c2ec42a270ada4c303cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Pebbles/Pebbles_11-128x128.png using Guid(8e1faf56853c2ec42a270ada4c303cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b6eecb5967bd833f67dd51748df56e92') in 0.007698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Pebbles/Pebbles_07-128x128.png
-  artifactKey: Guid(929a87d6cbfc0b440b11822e862c4d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Pebbles/Pebbles_07-128x128.png using Guid(929a87d6cbfc0b440b11822e862c4d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6e8623cfc7f26f166dbb373f8c6bbefd') in 0.007546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Pebbles/Pebbles_03-128x128.png
-  artifactKey: Guid(52739591c4a0f4b4da4dcc2d92a48c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Pebbles/Pebbles_03-128x128.png using Guid(52739591c4a0f4b4da4dcc2d92a48c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '51f24445d20abe37f875bd8c8052fdab') in 0.007826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Pebbles/Pebbles_12-128x128.png
-  artifactKey: Guid(f839bd680e1f6194d82f0157343f3160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Pebbles/Pebbles_12-128x128.png using Guid(f839bd680e1f6194d82f0157343f3160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e4803aa5e8629f975c9d4e095e33e7d7') in 0.007713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Pebbles/Pebbles_06-128x128.png
-  artifactKey: Guid(c195f69d13d76d842b0c1d4241fe4135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Pebbles/Pebbles_06-128x128.png using Guid(c195f69d13d76d842b0c1d4241fe4135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '987c33b64f21f0f11dfd5716592039dc') in 0.010483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.773121 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Plant/Plant_02-128x128.png
-  artifactKey: Guid(edfa7ce217eb6af4abd6920e1b59c2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Plant/Plant_02-128x128.png using Guid(edfa7ce217eb6af4abd6920e1b59c2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9ac1490fd8dd57c090263f1065e125eb') in 0.006776 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Plant/Plant_03-128x128.png
-  artifactKey: Guid(4f0bd001b3345a541b05501b485de06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Plant/Plant_03-128x128.png using Guid(4f0bd001b3345a541b05501b485de06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0e88fb84e313db8342e6f93a0ad44fda') in 0.013973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Plant/Plant_11-128x128.png
-  artifactKey: Guid(bfe16882d3d980a4788732328de21de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Plant/Plant_11-128x128.png using Guid(bfe16882d3d980a4788732328de21de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7f1a0dadda8ca7e09ce3815a95d02059') in 0.007092 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Plant/Plant_04-128x128.png
-  artifactKey: Guid(0f42bfde584e7554e9433e218200e01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Plant/Plant_04-128x128.png using Guid(0f42bfde584e7554e9433e218200e01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a85e84a1425878569fa01aa569de7719') in 0.009135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Plant/Plant_10-128x128.png
-  artifactKey: Guid(2e1d571029d2eb746814f7a95b652599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Plant/Plant_10-128x128.png using Guid(2e1d571029d2eb746814f7a95b652599) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6fc62c5cad5aabf398536d6d32018a7a') in 0.007616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Plant/Plant_12-128x128.png
-  artifactKey: Guid(3dd12f44b155922439388ac916352534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Plant/Plant_12-128x128.png using Guid(3dd12f44b155922439388ac916352534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '276993c7938ca2e7b894d141df786e95') in 0.007613 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.560231 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_02-128x128.png
-  artifactKey: Guid(d40b7234e7a0e394ca6afd35d7a37bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_02-128x128.png using Guid(d40b7234e7a0e394ca6afd35d7a37bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7b17f41f7ce8086ad7a289de295d5863') in 0.006261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_06-128x128.png
-  artifactKey: Guid(a87774134473b0c4abff27cee17209a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_06-128x128.png using Guid(a87774134473b0c4abff27cee17209a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '112238287e4d18455cafbace061a70fe') in 0.013630 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_12-128x128.png
-  artifactKey: Guid(fe963d7ba2fee274fb95ba370ba20115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_12-128x128.png using Guid(fe963d7ba2fee274fb95ba370ba20115) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9092698970b9bac052fc4c054296cf3a') in 0.006394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_08-128x128.png
-  artifactKey: Guid(4cd48c54145ceb94fb4ac3b765731885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_08-128x128.png using Guid(4cd48c54145ceb94fb4ac3b765731885) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5273f1a1748274786e4997f6a7dedcb4') in 0.007780 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_10-128x128.png
-  artifactKey: Guid(7f5825040f683d2459808749266468c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_10-128x128.png using Guid(7f5825040f683d2459808749266468c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2e114df0311b2675126097128b5c75ed') in 0.006509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_03-128x128.png
-  artifactKey: Guid(f5d7e720cb56fce44ab07deeeb978040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_03-128x128.png using Guid(f5d7e720cb56fce44ab07deeeb978040) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '90f1d7e3f2612da8dbd8c0368e30b920') in 0.006848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 12.578461 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_17-128x128.png
-  artifactKey: Guid(2de589c580d972647bb11be56edfb9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_17-128x128.png using Guid(2de589c580d972647bb11be56edfb9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fa18a13d2efd8408e65840be0eb792ec') in 0.011941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_23-128x128.png
-  artifactKey: Guid(6b1b93fe284f62c49836ccdbd49873dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_23-128x128.png using Guid(6b1b93fe284f62c49836ccdbd49873dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bf3bdc00454f2c0b422edcd4a25f20c0') in 0.011541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_24-128x128.png
-  artifactKey: Guid(19b6150e1e3f3154a89f5aba6f2e9174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_24-128x128.png using Guid(19b6150e1e3f3154a89f5aba6f2e9174) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'da886334263a9c706d2492aea7a6e354') in 0.007169 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_22-128x128.png
-  artifactKey: Guid(e2cce968c377c7349850b51e233beebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_22-128x128.png using Guid(e2cce968c377c7349850b51e233beebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '973abfaf69b91ca4a8e9f73c4066ae5b') in 0.007658 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_19-128x128.png
-  artifactKey: Guid(3bfb58fa35c405149b543662c8868ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_19-128x128.png using Guid(3bfb58fa35c405149b543662c8868ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '00db5796ffea080a7e3ea2095f7bcbeb') in 0.007744 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.136199 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_14-128x128.png
-  artifactKey: Guid(6de2aa49db6658444b9b11670bfd1d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_14-128x128.png using Guid(6de2aa49db6658444b9b11670bfd1d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0cc9d99f39506d42791d028175580292') in 0.010291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_15-128x128.png
-  artifactKey: Guid(6ac6c89e1cacf794db1aa9a6a747e062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Roof/Roof_15-128x128.png using Guid(6ac6c89e1cacf794db1aa9a6a747e062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '43c5094da4cebbe0f29a14b87b2cdabd') in 0.017563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 60.775906 seconds.
-  path: Assets/Material/Texture/TangentialSpaceMaterial.mat
-  artifactKey: Guid(874fff0594b3a1b4ea723868bfdf58c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/TangentialSpaceMaterial.mat using Guid(874fff0594b3a1b4ea723868bfdf58c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ff8d67b01ce37e1a9c51326d366d8e3b') in 0.042786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 65.488994 seconds.
-  path: Assets/Material/Texture/TangentialSpaceMaterial.mat
-  artifactKey: Guid(874fff0594b3a1b4ea723868bfdf58c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/TangentialSpaceMaterial.mat using Guid(874fff0594b3a1b4ea723868bfdf58c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e781a020869f07cede1fa35c604b9883') in 0.008465 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3

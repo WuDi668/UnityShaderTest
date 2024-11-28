@@ -15,7 +15,7 @@ E:/UnityTestProject/ShaderTest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54432
+59896
 Successfully changed project path to: E:/UnityTestProject/ShaderTest
 E:/UnityTestProject/ShaderTest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ E:/UnityTestProject/ShaderTest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3480]  Target information:
+Player connection [21352]  Target information:
 
-Player connection [3480]  * "[IP] 192.168.10.32 [Port] 0 [Flags] 2 [Guid] 1357634763 [EditorId] 1357634763 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q5QFH5M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [21352]  * "[IP] 192.168.10.32 [Port] 0 [Flags] 2 [Guid] 1077135633 [EditorId] 1077135633 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q5QFH5M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [3480] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [3480] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21352] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21352] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 12.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1c1 (d3f79ae33604)
 [Subsystems] Discovering subsystems at path E:/UnityEditorOther/2022.3.42f1c1/Editor/Data/Resources/UnitySubsystems
@@ -72,47 +72,47 @@ Initialize mono
 Mono path[0] = 'E:/UnityEditorOther/2022.3.42f1c1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityEditorOther/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/UnityEditorOther/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityEditorOther/2022.3.42f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/UnityEditorOther/2022.3.42f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006725 seconds.
-- Loaded All Assemblies, in  0.507 seconds
+Registered in 0.007469 seconds.
+- Loaded All Assemblies, in  0.440 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 899 ms
+Android Extension - Scanning For ADB Devices 910 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.328 seconds
-Domain Reload Profiling: 1833ms
-	BeginReloadAssembly (146ms)
+- Finished resetting the current domain, in  1.264 seconds
+Domain Reload Profiling: 1701ms
+	BeginReloadAssembly (126ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (228ms)
-		LoadAssemblies (143ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (122ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (223ms)
-				TypeCache.ScanAssembly (206ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1328ms)
+	FinalizeReload (1265ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1268ms)
+		SetupLoadedEditorAssemblies (1210ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1036ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (1032ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (157ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,7 +121,7 @@ Domain Reload Profiling: 1833ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.861 seconds
+- Loaded All Assemblies, in  0.694 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -129,47 +129,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.882 seconds
-Domain Reload Profiling: 1738ms
-	BeginReloadAssembly (193ms)
+- Finished resetting the current domain, in  0.616 seconds
+Domain Reload Profiling: 1307ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (544ms)
-		LoadAssemblies (357ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (467ms)
+		LoadAssemblies (296ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (301ms)
-			TypeCache.Refresh (259ms)
-				TypeCache.ScanAssembly (234ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (197ms)
 			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (882ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (617ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (665ms)
+		SetupLoadedEditorAssemblies (455ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (139ms)
-			ProcessInitializeOnLoadAttributes (440ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 5.53 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (55.1 KB). Loaded Objects now: 3578.
-Memory consumption went from 129.3 MB to 129.2 MB.
-Total: 3.958700 ms (FindLiveObjects: 0.248200 ms CreateObjectMapping: 0.208200 ms MarkObjects: 3.402900 ms  DeleteObjects: 0.097900 ms)
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3580.
+Memory consumption went from 130.3 MB to 130.2 MB.
+Total: 2.796500 ms (FindLiveObjects: 0.235000 ms CreateObjectMapping: 0.147700 ms MarkObjects: 2.341300 ms  DeleteObjects: 0.071900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,1103 +187,246 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 18209.540794 seconds.
-  path: Assets/Material/Texture/TangentialSpaceMaterial.mat
-  artifactKey: Guid(874fff0594b3a1b4ea723868bfdf58c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/TangentialSpaceMaterial.mat using Guid(874fff0594b3a1b4ea723868bfdf58c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a3fffe2d0e838011967f4fe1f5a63e07') in 0.092641 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 11.704230 seconds.
-  path: Assets/Material/Texture/TangentialSpaceMaterial.mat
-  artifactKey: Guid(874fff0594b3a1b4ea723868bfdf58c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/TangentialSpaceMaterial.mat using Guid(874fff0594b3a1b4ea723868bfdf58c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a0faba26310071613f7ce45609f5353e') in 0.006659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 173.525971 seconds.
-  path: Assets/Shader/Texture/WorldSpaceNormalShader.shader
-  artifactKey: Guid(d8eaf6abf3da0ad4fa1efc63f071ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Texture/WorldSpaceNormalShader.shader using Guid(d8eaf6abf3da0ad4fa1efc63f071ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd0a9a34ca95782514d005ef3db54db41') in 0.001007 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1339.603771 seconds.
-  path: Assets/Shader/Texture/WorldSpaceNormalShader.shader
-  artifactKey: Guid(d8eaf6abf3da0ad4fa1efc63f071ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Texture/WorldSpaceNormalShader.shader using Guid(d8eaf6abf3da0ad4fa1efc63f071ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '46e00a35560d2afa841df2179d61f39f') in 0.001180 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 78.122053 seconds.
-  path: Assets/Shader/Texture/WorldSpaceNormalShader.shader
-  artifactKey: Guid(d8eaf6abf3da0ad4fa1efc63f071ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Texture/WorldSpaceNormalShader.shader using Guid(d8eaf6abf3da0ad4fa1efc63f071ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '25fca0d9ebe60871c7dd66117badd44f') in 0.000806 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.183197 seconds.
-  path: Assets/Shader/Texture/WorldSpaceNormalShader.shader
-  artifactKey: Guid(d8eaf6abf3da0ad4fa1efc63f071ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Texture/WorldSpaceNormalShader.shader using Guid(d8eaf6abf3da0ad4fa1efc63f071ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '498b270cad32d77fb1952538312e7e28') in 0.000810 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.854158 seconds.
-  path: Assets/Texture/playing_cards/PNG/black/Pikes_Queen_black.png
-  artifactKey: Guid(315cbbf79b79f0a44a7b62200c3e00cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/playing_cards/PNG/black/Pikes_Queen_black.png using Guid(315cbbf79b79f0a44a7b62200c3e00cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '25edc11f70003ff3fbd78b682bdabc48') in 0.020998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.049023 seconds.
-  path: Assets/Texture/playing_cards/PNG/black/Tiles_A_black.png
-  artifactKey: Guid(b2d8df4afd440914f9ad7b43f04ddd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/playing_cards/PNG/black/Tiles_A_black.png using Guid(b2d8df4afd440914f9ad7b43f04ddd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '57be24555f989ac0d961d6cbe7f18505') in 0.006992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.015423 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_01-128x128.png
-  artifactKey: Guid(e25414b303989044a8394e09893db32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_01-128x128.png using Guid(e25414b303989044a8394e09893db32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3b80dcc63b65f71a4eafedbd39b0e696') in 0.008539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_05-128x128.png
-  artifactKey: Guid(92bf78c46f7041a41b05d6ce5af364fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_05-128x128.png using Guid(92bf78c46f7041a41b05d6ce5af364fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '47f6654068328d20c36fd31b9105b2f8') in 0.008594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_08-128x128.png
-  artifactKey: Guid(ec1e72f8e613b064aa8db5e27bd4f4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_08-128x128.png using Guid(ec1e72f8e613b064aa8db5e27bd4f4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6b49f2449780e61ce5f3a1a1319679c2') in 0.008544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_11-128x128.png
-  artifactKey: Guid(04f51fb7a7839f246ba6ef242c46b914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_11-128x128.png using Guid(04f51fb7a7839f246ba6ef242c46b914) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e24b4ded4d14eac336a0092c8e6eebe8') in 0.007477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_12-128x128.png
-  artifactKey: Guid(c51c98ab1feb040438e2ee6eb602e5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_12-128x128.png using Guid(c51c98ab1feb040438e2ee6eb602e5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b1aca31ea9c2a0ba58a01f1f9da06617') in 0.009301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_09-128x128.png
-  artifactKey: Guid(551dbc7eeb32bd9448f4ee9b8d2e7721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_09-128x128.png using Guid(551dbc7eeb32bd9448f4ee9b8d2e7721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '427d637fc5a5aaa2bfe39fc2e9e60d61') in 0.007682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_10-128x128.png
-  artifactKey: Guid(a89f3f7b219262b42b50c2c23a9605e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_10-128x128.png using Guid(a89f3f7b219262b42b50c2c23a9605e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '94111b6464691867cda16aa9db661de2') in 0.008175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.498282 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_15-128x128.png
-  artifactKey: Guid(9c8c9c8e59546064eb645b0f9bc489bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_15-128x128.png using Guid(9c8c9c8e59546064eb645b0f9bc489bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b3684848c2077945bb05cbcf923c83ed') in 0.013677 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_18-128x128.png
-  artifactKey: Guid(3860a9db9baea914cbc2791cbf933ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_18-128x128.png using Guid(3860a9db9baea914cbc2791cbf933ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '63988f051baca6cf004e11f68ea8ceef') in 0.013644 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_17-128x128.png
-  artifactKey: Guid(88c814203cf070b4e96f33396462b8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_17-128x128.png using Guid(88c814203cf070b4e96f33396462b8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1ebde3eb10fe3f9a67d024dc63eb1391') in 0.014274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Texture/playing_cards/PNG/black/Tiles_King_black.png
-  artifactKey: Guid(50fd92c6dad696442a1833a6b345692f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/playing_cards/PNG/black/Tiles_King_black.png using Guid(50fd92c6dad696442a1833a6b345692f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e3326732f9a84dcda38146ceaba47184') in 0.010137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Texture/playing_cards/PNG/black/Tiles_Jack_black.png
-  artifactKey: Guid(39868abdee77cf5418b311feb04ac683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/playing_cards/PNG/black/Tiles_Jack_black.png using Guid(39868abdee77cf5418b311feb04ac683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '565976246c00859da536617a9c3da846') in 0.008545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Texture/playing_cards/PNG/black/Tiles_Queen_black.png
-  artifactKey: Guid(90dd48006f5a549489e6a9b02dcd48ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/playing_cards/PNG/black/Tiles_Queen_black.png using Guid(90dd48006f5a549489e6a9b02dcd48ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4f461514d043ac95343021bac2d5e4c2') in 0.007332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Wall/Wall_02-128x128.png
-  artifactKey: Guid(447c85866069ff94ba3477412dfcfb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Wall/Wall_02-128x128.png using Guid(447c85866069ff94ba3477412dfcfb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f549040ef5326383c0156c5c27ae86dc') in 0.008740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_22-128x128.png
-  artifactKey: Guid(9724b8b6b7a78ca48877c876fc8b4ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_22-128x128.png using Guid(9724b8b6b7a78ca48877c876fc8b4ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ae703478b94f162fd50bb022d5efb00a') in 0.009804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_23-128x128.png
-  artifactKey: Guid(f2de6a6ba53b8d6468dcc5e8bbd09071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Photorealistic Texture Pack 2 - 128x128/128x128/Woven/Woven_23-128x128.png using Guid(f2de6a6ba53b8d6468dcc5e8bbd09071) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b7e72c3ca1fc30decd49f8584f0f5985') in 0.006936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.006302 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 256x256/256x256/Elements/Elements_12-256x256.png
-  artifactKey: Guid(e64a5c5b4d19b2647b314007c2364922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 256x256/256x256/Elements/Elements_12-256x256.png using Guid(e64a5c5b4d19b2647b314007c2364922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bbca3f7ce940105ac6fe01a645e2582d') in 0.008156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 40.932788 seconds.
-  path: Assets/Material/Texture/WorldSpaceNormalMaterial.mat
-  artifactKey: Guid(170ea4a849098c645863c6657802087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/WorldSpaceNormalMaterial.mat using Guid(170ea4a849098c645863c6657802087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0d497d9a2a0bb62538286d2d0e59d258') in 0.058363 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 6.095064 seconds.
-  path: Assets/Material/Texture/WorldSpaceNormalMaterial.mat
-  artifactKey: Guid(170ea4a849098c645863c6657802087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/WorldSpaceNormalMaterial.mat using Guid(170ea4a849098c645863c6657802087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8027a3522e36282edf47957be1e38736') in 0.007550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1522.532214 seconds.
-  path: Assets/Material/Texture/WorldSpaceNormalMaterial.mat
-  artifactKey: Guid(170ea4a849098c645863c6657802087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/WorldSpaceNormalMaterial.mat using Guid(170ea4a849098c645863c6657802087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e6d98bd44d1baaa029640d2a3fdcaccb') in 0.056512 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4246.122614 seconds.
-  path: Assets/Material/Texture/WorldSpaceNormalMaterial.mat
-  artifactKey: Guid(170ea4a849098c645863c6657802087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/WorldSpaceNormalMaterial.mat using Guid(170ea4a849098c645863c6657802087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fccf59206bd30922c7212137bb5f2db8') in 0.010187 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 73.963528 seconds.
+  Time since last request: 18197.854399 seconds.
   path: Assets/Shader/Texture/GradientTextureShader.shader
   artifactKey: Guid(8bceb38cb0780b548b8c5800dd3118eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Shader/Texture/GradientTextureShader.shader using Guid(8bceb38cb0780b548b8c5800dd3118eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1cadbfe26b57ef7cb22adc81610099e9') in 0.001588 seconds
+ -> (artifact id: 'e7b55d4b2a24693f4631e6b9e8b06be7') in 0.010120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 431.634593 seconds.
+  path: Assets/Texture/Other
+  artifactKey: Guid(e2dc84aead6fb2942b96bdbc10a0df66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Other using Guid(e2dc84aead6fb2942b96bdbc10a0df66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '324323935aec3fc7c994f036728944d9') in 0.001034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.240812 seconds.
+  path: Assets/Texture/Other/transparent_texture.psd
+  artifactKey: Guid(636181c4ec246054a959ee79ec1eff86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/Other/transparent_texture.psd using Guid(636181c4ec246054a959ee79ec1eff86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bb70432143bc74a59dcb6d1dce4414b3') in 0.048770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4815.725731 seconds.
+  path: Assets/Material/Transparent
+  artifactKey: Guid(1c545e56ac14ac74fa6c3219022520e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Transparent using Guid(1c545e56ac14ac74fa6c3219022520e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e7d80bad74d2e8e07c0014a01fa476c3') in 0.001330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.676374 seconds.
+  path: Assets/Shader/Transparent
+  artifactKey: Guid(3440d88453abdac4dbde402371565614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Transparent using Guid(3440d88453abdac4dbde402371565614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a347e250e1a90b903bb2f970e953bbd4') in 0.000938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.931891 seconds.
+  path: Assets/Shader/Transparent/AlphaTestShader.shader
+  artifactKey: Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Transparent/AlphaTestShader.shader using Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ca819a9125aa3e6331c2afd6cd13de98') in 0.003368 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 9.397144 seconds.
-  path: Assets/Material/Texture/GradientTextureMaterial.mat
-  artifactKey: Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/GradientTextureMaterial.mat using Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 8.872858 seconds.
+  path: Assets/Material/Transparent/AlphaTestMaterial.mat
+  artifactKey: Guid(c9ba879f503c10143a168365d8c680c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Transparent/AlphaTestMaterial.mat using Guid(c9ba879f503c10143a168365d8c680c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '849cb29ede8588b9ccf77ffa16196dcf') in 0.020893 seconds
+ -> (artifact id: '923edcb21836c5aa33db1f95a5b8ab1c') in 0.048730 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 110.244071 seconds.
-  path: Assets/Shader/Texture/WorldSpaceNormalShader.shader
-  artifactKey: Guid(d8eaf6abf3da0ad4fa1efc63f071ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/Texture/WorldSpaceNormalShader.shader using Guid(d8eaf6abf3da0ad4fa1efc63f071ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a9eb3cce31b7242f77862d6d624deec9') in 0.000796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+  Time since last request: 244.598315 seconds.
+  path: Assets/Shader/Transparent/AlphaTestShader.shader
+  artifactKey: Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Transparent/AlphaTestShader.shader using Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e620887da8b5ca9251db6d51da125205') in 0.002332 seconds
+Number of updated asset objects reloaded before import = 11
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2733.423786 seconds.
-  path: Assets/Material/Texture/GradientTextureMaterial.mat
-  artifactKey: Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/GradientTextureMaterial.mat using Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 8.574713 seconds.
+  path: Assets/Material/Light/BlinnPhongMaterial.mat
+  artifactKey: Guid(23030e14762b57646850e62faebf1419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Light/BlinnPhongMaterial.mat using Guid(23030e14762b57646850e62faebf1419) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f58b9c7b8bd4b726ce23158db097aa90') in 0.046604 seconds
+ -> (artifact id: '2774cb0f8fafe7ee85036932521aee9f') in 0.009272 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 309.653194 seconds.
-  path: Assets/Material/Texture/GradientTextureMaterial.mat
-  artifactKey: Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/GradientTextureMaterial.mat using Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Material/Light/SpecularPixelMaterial.mat
+  artifactKey: Guid(b9dc8ec956dd17149ac10b27b22e57f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Light/SpecularPixelMaterial.mat using Guid(b9dc8ec956dd17149ac10b27b22e57f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fc5a27bd2e813cb806e03bf886f7d457') in 0.051453 seconds
+ -> (artifact id: '4d794fc6c72c47d13b0c0da847c2e428') in 0.009401 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 654.185654 seconds.
-  path: Assets/Material/Texture/GradientTextureMaterial.mat
-  artifactKey: Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/GradientTextureMaterial.mat using Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bbbec96f8fcdea3ac653a818ccc9a0ce') in 0.014830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 55.958537 seconds.
-  path: Assets/Material/Texture/GradientTextureMaterial.mat
-  artifactKey: Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/GradientTextureMaterial.mat using Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c5c9e6647cf94ce91bc36296e67e4ed2') in 0.050714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 31.880707 seconds.
-  path: Assets/Material/Texture/GradientTextureMaterial.mat
-  artifactKey: Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Texture/GradientTextureMaterial.mat using Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c9302687d41192df78ed222cb7038565') in 0.009677 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 15.628208 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_01-128x128.png
-  artifactKey: Guid(8bd4f97a161014245bdd738cc76c517d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_01-128x128.png using Guid(8bd4f97a161014245bdd738cc76c517d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '25533c077127e8b350a370e64e79c590') in 0.047696 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 7.676116 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_01-128x128.png
-  artifactKey: Guid(8bd4f97a161014245bdd738cc76c517d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_01-128x128.png using Guid(8bd4f97a161014245bdd738cc76c517d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f187a1ac3af66233550870210f4ad626') in 0.006160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.995531 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_01-128x128.png
-  artifactKey: Guid(8bd4f97a161014245bdd738cc76c517d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_01-128x128.png using Guid(8bd4f97a161014245bdd738cc76c517d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fca4e3607a265cc838db5524c3a3072c') in 0.005831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1378.119786 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_01-128x128.png
-  artifactKey: Guid(64968b5efa019824f81f5f61fa63326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_01-128x128.png using Guid(64968b5efa019824f81f5f61fa63326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd3320e3e9545351c0f87925b31f668d1') in 0.010110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_04-128x128.png
-  artifactKey: Guid(961fb5f1399c2d64bb38500339492895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_04-128x128.png using Guid(961fb5f1399c2d64bb38500339492895) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2e1456d54f8cd1908b870a9c2eba49d4') in 0.010701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_03-128x128.png
-  artifactKey: Guid(6a7c51f4a1241ca49922192c4ed21f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_03-128x128.png using Guid(6a7c51f4a1241ca49922192c4ed21f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  path: Assets/Material/Light/SpecularVertexMaterial.mat
+  artifactKey: Guid(456a7a1db033ffd4bbac04b8ad5b097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Light/SpecularVertexMaterial.mat using Guid(456a7a1db033ffd4bbac04b8ad5b097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e7356d4b335e9a7828bb4f23e64310e8') in 0.007336 seconds
+ -> (artifact id: 'c62f913810b0057f9948e49a6a15b8b5') in 0.008056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.617438 seconds.
+  path: Assets/Material/Texture/GradientTextureMaterial.mat
+  artifactKey: Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Texture/GradientTextureMaterial.mat using Guid(1ee1effcc26da9e44b54a10b60d4d602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6daa37d78536e15b4797cc8a772b7e07') in 0.008244 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.475104 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_13-128x128.png
-  artifactKey: Guid(124b9b84a50aa5141a630bd80eb421ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_13-128x128.png using Guid(124b9b84a50aa5141a630bd80eb421ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Material/Texture/WorldSpaceNormalMaterial.mat
+  artifactKey: Guid(170ea4a849098c645863c6657802087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Texture/WorldSpaceNormalMaterial.mat using Guid(170ea4a849098c645863c6657802087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c7fa76abce71abe3a89ff8f9eb0f72ad') in 0.007708 seconds
+ -> (artifact id: '07ffe6832d6634e29723857291f14774') in 0.010314 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.298152 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_14-128x128.png
-  artifactKey: Guid(33fcc783c894c2e46a21e57896a723b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_14-128x128.png using Guid(33fcc783c894c2e46a21e57896a723b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3af919caba3a98ab306f25f386e4353a') in 0.008362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.019779 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_15-128x128.png
-  artifactKey: Guid(a0059bd16e5e54a46b53d2e06bad3341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_15-128x128.png using Guid(a0059bd16e5e54a46b53d2e06bad3341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8c9247681194b423b2e00ea99e3e6dc5') in 0.007197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.025496 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_16-128x128.png
-  artifactKey: Guid(1723ec2fa52fd5d4b93dc1ae4fe5ab21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_16-128x128.png using Guid(1723ec2fa52fd5d4b93dc1ae4fe5ab21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '678157b54704fa576bf1f07ea653bbc5') in 0.006508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.022398 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_17-128x128.png
-  artifactKey: Guid(5735395db707b28408ba5467a1aec658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_17-128x128.png using Guid(5735395db707b28408ba5467a1aec658) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '440d06bd78f51b1bf7f18648d6a05e44') in 0.006773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.253657 seconds.
-  path: Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_18-128x128.png
-  artifactKey: Guid(f0b7cc8fcd179b646be6cf42c6e7b791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_18-128x128.png using Guid(f0b7cc8fcd179b646be6cf42c6e7b791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1bee27bb895d0b9cebc5b2c49b5641c1') in 0.006649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 841.199866 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128
-  artifactKey: Guid(fceb7d30e007c3f41bd76f7e08f04082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128 using Guid(fceb7d30e007c3f41bd76f7e08f04082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '040dcbf71b3ee6c3f031f0c157054dd4') in 0.001703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.337192 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic
-  artifactKey: Guid(4b7e29e70f587d34aae51bd34bb4ba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic using Guid(4b7e29e70f587d34aae51bd34bb4ba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7363036f62bd817107776ed6e492784d') in 0.000684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.061135 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Angled_01-128x128.png
-  artifactKey: Guid(b7c80fcd1c6c40743aadaeaf921a2d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Angled_01-128x128.png using Guid(b7c80fcd1c6c40743aadaeaf921a2d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e5a81c365e4cfe509f84233c2bc23be2') in 0.007423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Angled_08-128x128.png
-  artifactKey: Guid(f93ddde4940b4014e813be8e5c593d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Angled_08-128x128.png using Guid(f93ddde4940b4014e813be8e5c593d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f1482a912c49feb64e3c1520fa5f9dc5') in 0.013666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Horizontal_1-128x128.png
-  artifactKey: Guid(c8a6d91f680e09f4fa17a4c1b91a7ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Horizontal_1-128x128.png using Guid(c8a6d91f680e09f4fa17a4c1b91a7ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '52475e86bb9e264f829f495d458b358f') in 0.006616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Angled_06-128x128.png
-  artifactKey: Guid(1119914630520dd4cbe0735eaaca0b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Angled_06-128x128.png using Guid(1119914630520dd4cbe0735eaaca0b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4445664e58b23baaa8e7a0b771c5dd0e') in 0.008259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Horizontal_2-128x128.png
-  artifactKey: Guid(e944d140a7986ed44908eaf64cc2ccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Horizontal_2-128x128.png using Guid(e944d140a7986ed44908eaf64cc2ccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fdc08d8745c60a654f3a2d40a8f89534') in 0.006570 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Angled_05-128x128.png
-  artifactKey: Guid(8992ed77b525b0544953ac37a64e63ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Angled_05-128x128.png using Guid(8992ed77b525b0544953ac37a64e63ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  path: Assets/Material/Texture/TangentialSpaceMaterial.mat
+  artifactKey: Guid(874fff0594b3a1b4ea723868bfdf58c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Texture/TangentialSpaceMaterial.mat using Guid(874fff0594b3a1b4ea723868bfdf58c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b06bf18eadd18a4d948b0bfe75769cb7') in 0.010295 seconds
+ -> (artifact id: '5d0eecfc874e36dc9c9690dd2ccc69d4') in 0.010514 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Vertical_2-128x128.png
-  artifactKey: Guid(63886d3fed0beff4995e274acd52cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Vertical_2-128x128.png using Guid(63886d3fed0beff4995e274acd52cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c23860bafd27279a0b03b207ee27681d') in 0.006127 seconds
+  Time since last request: 24.130036 seconds.
+  path: Assets/Shader/Transparent/AlphaTestShader.shader
+  artifactKey: Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Transparent/AlphaTestShader.shader using Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f0d7236c3ea3426f224505140fb76474') in 0.001635 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 41.982563 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Circular/Circular_01-128x128.png
-  artifactKey: Guid(08065e1741743bc4c96cd9b933b24e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Circular/Circular_01-128x128.png using Guid(08065e1741743bc4c96cd9b933b24e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd56f959adca798ef4dad3514f2d76e94') in 0.007486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+  Time since last request: 2117.023755 seconds.
+  path: Assets/Shader/Transparent/AlphaTestShader.shader
+  artifactKey: Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Transparent/AlphaTestShader.shader using Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd9ab1449bed11d5484607b3146802a82') in 0.004346 seconds
+Number of updated asset objects reloaded before import = 5
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Circular/Circular_08-128x128.png
-  artifactKey: Guid(b83726a7d828cfa4d9a5c5128d5a1e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Circular/Circular_08-128x128.png using Guid(b83726a7d828cfa4d9a5c5128d5a1e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1345d4aa3cc9bfdfd751baf9d3cabfb0') in 0.008845 seconds
+  Time since last request: 88.237692 seconds.
+  path: Assets/Shader/Transparent/AlphaTestShader.shader
+  artifactKey: Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Transparent/AlphaTestShader.shader using Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '93499c4f1a16c2881f32aa4a8237e9ac') in 0.001889 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Circular/Circular_09-128x128.png
-  artifactKey: Guid(9ae479cc85157864789d310d0c35ea2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Circular/Circular_09-128x128.png using Guid(9ae479cc85157864789d310d0c35ea2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '080b8020f1e42d13cdfdef470484aaeb') in 0.006574 seconds
+  Time since last request: 10.385148 seconds.
+  path: Assets/Shader/Transparent/AlphaTestShader.shader
+  artifactKey: Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Transparent/AlphaTestShader.shader using Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'df5ddb2d4061ecd87ba0312f61467c52') in 0.002784 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Circular/Circular_03-128x128.png
-  artifactKey: Guid(0fa5d710776bde8448f3023268fbf99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Circular/Circular_03-128x128.png using Guid(0fa5d710776bde8448f3023268fbf99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '83c0013686b628297753e08f7a69c405') in 0.009086 seconds
+  Time since last request: 16.581719 seconds.
+  path: Assets/Shader/Transparent/AlphaTestShader.shader
+  artifactKey: Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Transparent/AlphaTestShader.shader using Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '87ee28b88bbcf07ef1a3b234a6671089') in 0.002684 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Circular/Circular_10-128x128.png
-  artifactKey: Guid(3f3ae280cb5aaec42a869a86d92e7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Circular/Circular_10-128x128.png using Guid(3f3ae280cb5aaec42a869a86d92e7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9d89ef711e5ce6560d65ffb65601e0c4') in 0.006778 seconds
+  Time since last request: 5.963844 seconds.
+  path: Assets/Shader/Transparent/AlphaTestShader.shader
+  artifactKey: Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Transparent/AlphaTestShader.shader using Guid(f5567d8644c21104fb1149c88e6e28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '75b2ec6d9d9d71a171b7e28f302ff31d') in 0.001326 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 8.639726 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_01-128x128.png
-  artifactKey: Guid(eae350748a0ba5c4a9f04c3bc7c4fcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_01-128x128.png using Guid(eae350748a0ba5c4a9f04c3bc7c4fcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 11.741957 seconds.
+  path: Assets/Material/Transparent/AlphaTestMaterial.mat
+  artifactKey: Guid(c9ba879f503c10143a168365d8c680c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Transparent/AlphaTestMaterial.mat using Guid(c9ba879f503c10143a168365d8c680c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6f5a3790813c930b0912d9a3cb1d46cb') in 0.006759 seconds
+ -> (artifact id: '2cd5365f634848b3df3e3ebff74ab769') in 0.081214 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_08-128x128.png
-  artifactKey: Guid(d2b8e7efa5e8dd948ac0faa76cffd1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_08-128x128.png using Guid(d2b8e7efa5e8dd948ac0faa76cffd1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8bf8c96b72e73923ca51637e815cff86') in 0.007089 seconds
+  Time since last request: 3284.473897 seconds.
+  path: Assets/Shader/Transparent/AlphaBlendShader.shader
+  artifactKey: Guid(dbb4ce5dc0d9e584bb6ef095abc63629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Transparent/AlphaBlendShader.shader using Guid(dbb4ce5dc0d9e584bb6ef095abc63629) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3fe228d58630790e42cc7878b1f7cdd3') in 0.003810 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_10-128x128.png
-  artifactKey: Guid(d593274078cf44e45963379244a9a3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_10-128x128.png using Guid(d593274078cf44e45963379244a9a3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 8.544846 seconds.
+  path: Assets/Material/Transparent/AlphaBlendMaterial.mat
+  artifactKey: Guid(fe6f27016489f0648b98d4d7fdbe136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Transparent/AlphaBlendMaterial.mat using Guid(fe6f27016489f0648b98d4d7fdbe136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '756da1d95d30ba8b842fc64f287e2a4d') in 0.008617 seconds
+ -> (artifact id: '0f661de3ed0fd5cd167d61475144e37b') in 0.011498 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_09-128x128.png
-  artifactKey: Guid(78c28d20d2247ad4bb5f016eb6e2bf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_09-128x128.png using Guid(78c28d20d2247ad4bb5f016eb6e2bf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f9fc70a74ccd061f49156ab7e69ba3a2') in 0.006702 seconds
+  Time since last request: 991.344563 seconds.
+  path: Assets/Shader/Transparent/AlphaBlendShader.shader
+  artifactKey: Guid(dbb4ce5dc0d9e584bb6ef095abc63629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Transparent/AlphaBlendShader.shader using Guid(dbb4ce5dc0d9e584bb6ef095abc63629) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1660fd8aa02c026161f9ad51032d5b6e') in 0.002559 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_06-128x128.png
-  artifactKey: Guid(02bfd18358628c3439340d7a7e0d4ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_06-128x128.png using Guid(02bfd18358628c3439340d7a7e0d4ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7e2dfc714bb2432d26cf6bcda625149d') in 0.006923 seconds
+  Time since last request: 23.117050 seconds.
+  path: Assets/Shader/Transparent/AlphaBlendShader.shader
+  artifactKey: Guid(dbb4ce5dc0d9e584bb6ef095abc63629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Transparent/AlphaBlendShader.shader using Guid(dbb4ce5dc0d9e584bb6ef095abc63629) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '404d460ebfa4d83a9d54121201ebbe69') in 0.002533 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_11-128x128.png
-  artifactKey: Guid(4103df5293748fd48a6aa0c1d0c31053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_11-128x128.png using Guid(4103df5293748fd48a6aa0c1d0c31053) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 953.080327 seconds.
+  path: Assets/Material/Transparent/AlphaBlendMaterial.mat
+  artifactKey: Guid(fe6f27016489f0648b98d4d7fdbe136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Transparent/AlphaBlendMaterial.mat using Guid(fe6f27016489f0648b98d4d7fdbe136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '903173a208e6e441e08e52261f354c31') in 0.008877 seconds
+ -> (artifact id: 'eafa5d50aeb8c007bf228ccd2887fffb') in 0.050927 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.332365 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_13-128x128.png
-  artifactKey: Guid(58b1677de8751a54dac9917b4e66de3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_13-128x128.png using Guid(58b1677de8751a54dac9917b4e66de3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '81307dca574115108812aee9ecf3e9f6') in 0.013430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.060447 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_14-128x128.png
-  artifactKey: Guid(ec52a1ac375272f428ca48117348109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_14-128x128.png using Guid(ec52a1ac375272f428ca48117348109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7707d04735d9568c3ea381ef2112bddb') in 0.008197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.249838 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_15-128x128.png
-  artifactKey: Guid(e280654afaa7e4041ac632fc9b2d5533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_15-128x128.png using Guid(e280654afaa7e4041ac632fc9b2d5533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ba4e62a07ab96968eba5c892e93f8fac') in 0.008467 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.024195 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_16-128x128.png
-  artifactKey: Guid(14dfdf9d000088a438df216b3d9716d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Corner/Corner_16-128x128.png using Guid(14dfdf9d000088a438df216b3d9716d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd104ba5fcda83c767e225fe62009d244') in 0.007628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.249716 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_05-128x128.png
-  artifactKey: Guid(78677c4e7d0ec9b408c571b60b59839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_05-128x128.png using Guid(78677c4e7d0ec9b408c571b60b59839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '52a62f4952b1212866f37faca6581600') in 0.007343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_07-128x128.png
-  artifactKey: Guid(49181c4636802844fa735a4c09d0eea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_07-128x128.png using Guid(49181c4636802844fa735a4c09d0eea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b3efdf18dbdd6774d40dfc9f60a0b033') in 0.008457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_14-128x128.png
-  artifactKey: Guid(947b9a15cf9141d49a84128a90ee16f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_14-128x128.png using Guid(947b9a15cf9141d49a84128a90ee16f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '335478e9a60c3248e89c2eb2d7bc8662') in 0.007776 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_13-128x128.png
-  artifactKey: Guid(417722679f924314dbdf38599a4dd943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_13-128x128.png using Guid(417722679f924314dbdf38599a4dd943) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8e8d1f3b41d0de00296a19fa4fcd0011') in 0.006327 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_10-128x128.png
-  artifactKey: Guid(7cf84190e0c7c8b44a3009127622bd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_10-128x128.png using Guid(7cf84190e0c7c8b44a3009127622bd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5d54089b5a8dfcb29b82cd5626fd974f') in 0.008055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.339210 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Horizontal_Ripple_05-128x128.png
-  artifactKey: Guid(c517097c517e4dc44a17ae93676c96ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Horizontal_Ripple_05-128x128.png using Guid(c517097c517e4dc44a17ae93676c96ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3daf29aff5c850df3941ae07e1d085f1') in 0.006270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Vertical_Ripple_6-128x128.png
-  artifactKey: Guid(5e2101f4c4a2a7f4b8ecc581f4724249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Vertical_Ripple_6-128x128.png using Guid(5e2101f4c4a2a7f4b8ecc581f4724249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bc90531a1004954124d3cfc26d946d0c') in 0.014047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Horizontal_Ripple_07-128x128.png
-  artifactKey: Guid(10d2f818197ade94ab1e95cffbabd345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Horizontal_Ripple_07-128x128.png using Guid(10d2f818197ade94ab1e95cffbabd345) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '078b0a79f333311a967191366ebbad29') in 0.007684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Vertical_Ripple_8-128x128.png
-  artifactKey: Guid(9f411e7127968e24cadf3f85c153e565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Vertical_Ripple_8-128x128.png using Guid(9f411e7127968e24cadf3f85c153e565) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9cd20189953de5297422103a2c644690') in 0.005993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Horizontal_Ripple_08-128x128.png
-  artifactKey: Guid(8bdcce686cc63854fb0c0301b11c8280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Horizontal_Ripple_08-128x128.png using Guid(8bdcce686cc63854fb0c0301b11c8280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'aabcd1804415ebe0502fd86bbe1f7807') in 0.007852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Vertical_Ripple_1-128x128.png
-  artifactKey: Guid(d55dedf86472b24448b283d9ec07ddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Vertical_Ripple_1-128x128.png using Guid(d55dedf86472b24448b283d9ec07ddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4acc4df0aa7ab9f3acc94794fe2305bc') in 0.008721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.324663 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Horizontal_Ripple_04-128x128.png
-  artifactKey: Guid(6752bfff5c254fb4aa83a67df8c32d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Horizontal_Ripple_04-128x128.png using Guid(6752bfff5c254fb4aa83a67df8c32d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8b74d8e54cb9734e02b6d1d090e791c4') in 0.010383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.041759 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Horizontal_Ripple_03-128x128.png
-  artifactKey: Guid(70d1f3b0a424925459f7d00342374229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Horizontal_Ripple_03-128x128.png using Guid(70d1f3b0a424925459f7d00342374229) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '00bcd72febefa47a51ab3afb6f211a49') in 0.008054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 980.434121 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Horizontal_Ripple_01-128x128.png
-  artifactKey: Guid(7a79c33b53034564080ca6412a35772e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Ripple/Horizontal_Ripple_01-128x128.png using Guid(7a79c33b53034564080ca6412a35772e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c07def272948ba5f5ccf0cb0b413ad50') in 0.009230 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.545832 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_01-128x128.png
-  artifactKey: Guid(34043c542a209d94aa4927777dd05249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_01-128x128.png using Guid(34043c542a209d94aa4927777dd05249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2844d3d72245a019ef961406faf7a41b') in 0.007957 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_04-128x128.png
-  artifactKey: Guid(c6f469f0c15982f4284b2c1b8f69fa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Radial/Radial_04-128x128.png using Guid(c6f469f0c15982f4284b2c1b8f69fa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd8ea022a180905c824b3c30da965e82e') in 0.013422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.242650 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Shapes/Conical_1-128x128.png
-  artifactKey: Guid(0022360e6e27c094bbd95b9939242052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Shapes/Conical_1-128x128.png using Guid(0022360e6e27c094bbd95b9939242052) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1c33cc9479c3464d9ff84500564589d4') in 0.006088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Shapes/Diamonds_1-128x128.png
-  artifactKey: Guid(38402835536a2e2438ffa0f3dd3d1779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Shapes/Diamonds_1-128x128.png using Guid(38402835536a2e2438ffa0f3dd3d1779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3c0f621b59ece0da558491eda29cd787') in 0.007586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Shapes/Oval_1-128x128.png
-  artifactKey: Guid(7bef4a7cf2d33514eb5f991610f2bccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Shapes/Oval_1-128x128.png using Guid(7bef4a7cf2d33514eb5f991610f2bccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b913381447e436b541d329f593952703') in 0.007253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Shapes/Hedron_1-128x128.png
-  artifactKey: Guid(1aaf34c4bb373d8429c26f5cac63d994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Shapes/Hedron_1-128x128.png using Guid(1aaf34c4bb373d8429c26f5cac63d994) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6b242f902be57960962aea8a15b9d3d0') in 0.007799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Shapes/Square_1-128x128.png
-  artifactKey: Guid(47eb2dd5295347946a6ea77c1fc47a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Shapes/Square_1-128x128.png using Guid(47eb2dd5295347946a6ea77c1fc47a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '414a818e5d102a6c78c11460a1fc6f4d') in 0.005412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.927764 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_03-128x128.png
-  artifactKey: Guid(e292daf11236cab49b91d365f0f21769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_03-128x128.png using Guid(e292daf11236cab49b91d365f0f21769) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e2cb328a716f5b1d1e6996ff18106d91') in 0.012257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_13-128x128.png
-  artifactKey: Guid(6988cc88c927ed242a18809867718016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_13-128x128.png using Guid(6988cc88c927ed242a18809867718016) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3a91cd693c56def2ed84608dc6ac0bfe') in 0.007458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_07-128x128.png
-  artifactKey: Guid(d0830098df6cee6409af0bb4db7b1e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_07-128x128.png using Guid(d0830098df6cee6409af0bb4db7b1e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2404670bd9f3eeb4f25f9454f0efeb85') in 0.007374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_09-128x128.png
-  artifactKey: Guid(737d858becf1f5f4fbce0efd430d4819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_09-128x128.png using Guid(737d858becf1f5f4fbce0efd430d4819) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1b313c97df96fea1d729fa2ea9813ada') in 0.006783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_10-128x128.png
-  artifactKey: Guid(c63ed3664b3fb1543abbf18f5b544807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_10-128x128.png using Guid(c63ed3664b3fb1543abbf18f5b544807) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1dbcbf5260545350e852ad26586f9ae4') in 0.008898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_12-128x128.png
-  artifactKey: Guid(638101f787cca3344bd39eb7afcf655c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_12-128x128.png using Guid(638101f787cca3344bd39eb7afcf655c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fedb3957fb189f10fa514c86cc6522f4') in 0.008008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.536218 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spherical/Spherical_1-128x128.png
-  artifactKey: Guid(d5ddd525877832e4f94a4e17bbf95a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spherical/Spherical_1-128x128.png using Guid(d5ddd525877832e4f94a4e17bbf95a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '23a3b84716ef523f62564b8ee7bee6c4') in 0.006711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spherical/Spherical_3-128x128.png
-  artifactKey: Guid(245b76b5921944846a22d76b975c59f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spherical/Spherical_3-128x128.png using Guid(245b76b5921944846a22d76b975c59f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2779dbc70bb36a8b6578eebdc7bbead0') in 0.007044 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spherical/Spherical_6-128x128.png
-  artifactKey: Guid(d8ee6a6738d7a2b4c87979b8added3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spherical/Spherical_6-128x128.png using Guid(d8ee6a6738d7a2b4c87979b8added3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd1e0ffe7a80b13679a75bcf5ab426698') in 0.008289 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.947517 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_01-128x128.png
-  artifactKey: Guid(04654f984c368ca44acdf0c5c53bd5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Spokes/Spokes_01-128x128.png using Guid(04654f984c368ca44acdf0c5c53bd5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '58247d5e86915d7fe8a62a9f1ee40320') in 0.007054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.979060 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Tiled/Horizontal_Tile_01-128x128.png
-  artifactKey: Guid(6d4966d52a8b63c439cfeb9e1f4c18b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Tiled/Horizontal_Tile_01-128x128.png using Guid(6d4966d52a8b63c439cfeb9e1f4c18b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a07e31daa48350f3e06f7c5bb8f4e4e4') in 0.006297 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Tiled/Vertical_Tile_1-128x128.png
-  artifactKey: Guid(b29f55ca2bd76194e917c024b6afb8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Tiled/Vertical_Tile_1-128x128.png using Guid(b29f55ca2bd76194e917c024b6afb8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5d67d2afb3b760c690bb4a056969ed90') in 0.006118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Tiled/Horizontal_Tile_05-128x128.png
-  artifactKey: Guid(cd1b365f71f758646804d0da971f7c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Tiled/Horizontal_Tile_05-128x128.png using Guid(cd1b365f71f758646804d0da971f7c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bb9558085c476da7f6febd72b94373f0') in 0.008043 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Tiled/Vertical_Tile_5-128x128.png
-  artifactKey: Guid(0a7b17fbb7d037340ac1371451ae438c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Tiled/Vertical_Tile_5-128x128.png using Guid(0a7b17fbb7d037340ac1371451ae438c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '850b76926a256ebfb7704d8977a7945d') in 0.006630 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Tiled/Vertical_Tile_6-128x128.png
-  artifactKey: Guid(b5f31bace69b8894a9afbe9f1fbc0676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Tiled/Vertical_Tile_6-128x128.png using Guid(b5f31bace69b8894a9afbe9f1fbc0676) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '490b9a25338972c20eaec264fb9045d0') in 0.007456 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Tiled/Vertical_Tile_4-128x128.png
-  artifactKey: Guid(9806e5914ae638940bf848158fd77c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Tiled/Vertical_Tile_4-128x128.png using Guid(9806e5914ae638940bf848158fd77c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4a9a5a5a8ae44e54bfef4f5b65d50f97') in 0.006152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 182.291327 seconds.
-  path: Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Vertical_2-128x128.png
-  artifactKey: Guid(63886d3fed0beff4995e274acd52cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/SBS/SBS - Gradient Texture Pack - 128x128/128x128/Basic/Vertical_2-128x128.png using Guid(63886d3fed0beff4995e274acd52cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b9a0de84a3d112aed92be7be6d76174c') in 0.006764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3

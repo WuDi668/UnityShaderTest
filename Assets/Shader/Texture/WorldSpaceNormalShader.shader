@@ -1,4 +1,4 @@
-Shader "Custom/WorldSpaceNormalShader"
+Shader "Custom/Texture/WorldSpaceNormalShader"
 {
     Properties
     {

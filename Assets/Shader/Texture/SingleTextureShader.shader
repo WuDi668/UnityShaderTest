@@ -1,4 +1,4 @@
-Shader "Custom/SingleTextureShader"
+Shader "Custom/Texture/SingleTextureShader"
 {
     Properties
     {

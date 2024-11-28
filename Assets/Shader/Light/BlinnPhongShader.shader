@@ -1,4 +1,4 @@
-Shader "Custom/BlinnPhongShader"
+Shader "Custom/Texture/BlinnPhongShader"
 {
     Properties
     {
