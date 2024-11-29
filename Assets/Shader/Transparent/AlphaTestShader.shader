@@ -16,6 +16,7 @@ Shader "Custom/Transparent/AlphaTestShader"
         {
             //Pass内部标签
             Tags { "LightMode" = "ForwardBase"}
+
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
